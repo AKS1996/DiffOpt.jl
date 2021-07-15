@@ -128,7 +128,7 @@ A `MOI.ScalarQuadraticFunction` can only be used in linearly constrained
 quadratic models.
 
 For instance, if the objective contains `θ * (x + 2y)`, for the purpose of
-computinig the derivative with respect to `θ`, the following should be set:
+computing the derivative with respect to `θ`, the following should be set:
 ```julia
 fx = MOI.SingleVariable(x)
 fy = MOI.SingleVariable(y)
